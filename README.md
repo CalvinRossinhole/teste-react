@@ -21,18 +21,18 @@ https://reactjs.org/docs/create-a-new-react-app.html, não sendo permitido utili
 
 - Endpoints a serem utilizados (GET - não é necessário token de autenticação):
 -- https://hom-escolaaberta.sme.prefeitura.sp.gov.br/api/diretorias/
-  - parâmetros retornados:
+  - valores retornados:
     * *dre*: valor a ser utilizado no endpoint abaixo em *{iniciais_diretoria_regional}*
     * *diretoria*: valor a ser exibido no componente **Select**
 
   -- https://hom-escolaaberta.sme.prefeitura.sp.gov.br/api/smeescolas/
-    - parâmetros retornados:
+    - valores retornados:
       * *tipoesc*: Tipo de Escola
       * *faixa*: Faixa de uma quantidade de alunos de um determinado tipo de escola 
       * *count*: Quantidade de alunos dessa faixa neste tipo de escola
 
   --https://hom-escolaaberta.sme.prefeitura.sp.gov.br/api/smeescolas/{iniciais_diretoria_regional}
-   * parâmetros retornados são iguais ao endpoint acima, mas filtrados pela diretoria passada no endpoint
+   * valores retornados são iguais ao endpoint acima, mas filtrados pela diretoria passada no endpoint
    
 - Ao Selecionar uma Diretoria Regional de Educação pelo **Select** (posicionado acima da tabela), a página deverá renderizar o novo resultado automaticamente, atualizando os dados na **Tabela**.
 - O Exemplo da tabela a ser retornada está neste repositório. Ao invés da primeira coluna exibir **EDUCAÇÃO INFANTIL**, **ENSINO FUNDAMENTAL E MÉDIO**, etc., deverá exibir os tipos de escola (*tipoesc*), retornados pelo endpoint /api/smeescolas.
@@ -43,7 +43,7 @@ https://reactjs.org/docs/create-a-new-react-app.html, não sendo permitido utili
 
 ## Stack
 
-A única obrigatoriedade é que o produto final deve ser um projeto ReactJS. O uso de Bootstrap e Sass/Less é um plus.
+A única obrigatoriedade é que o produto final deve ser um projeto ReactJS. O uso de Bootstrap, Sass/Less e testes utilizando jest/enzyme (https://airbnb.io/enzyme/) é um plus.
 
 ## Entrega
 
