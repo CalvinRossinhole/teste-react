@@ -6,7 +6,8 @@ Este é um desafio para testar seus conhecimentos em ReactJS.
 
 O objetivo é avaliar a sua forma de codificação, e suas habilidades usando a tecnologia proposta.
 
-
+O usuário deve necessariamente criar um projeto ReactJS do zero, seguindo as instruçes desta URL:
+https://reactjs.org/docs/create-a-new-react-app.html, não sendo permitido utilizar projetos já prontos como base.
 
 ## Instruções
 
