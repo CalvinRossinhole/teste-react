@@ -17,17 +17,18 @@ O objetivo é avaliar a sua forma de codificação, e suas habilidades usando a 
   * um componente **Cabecalho**, com o título centralizado **Teste de ReactJS - AMcomE**, cor branco e fundo azul marinho.
   * um componente **Rodape**, centralizado **Secretaria Municipal de Educação - SME**, cor branco e fundo cinza escuro.
   * um componente **Pagina**, que deverá renderizar os quatro componentes descritos acima.
+
 - Endpoints a serem utilizados (GET - não é necessário token de autenticação):
 -- https://hom-escolaaberta.sme.prefeitura.sp.gov.br/api/diretorias/
   - parâmetros retornados:
-  -- *dre*: valor a ser utilizado no endpoint abaixo em *{iniciais_diretoria_regional}*
-  -- *diretoria*: valor a ser exibido no componente **Select**
+    * *dre*: valor a ser utilizado no endpoint abaixo em *{iniciais_diretoria_regional}*
+    * *diretoria*: valor a ser exibido no componente **Select**
 
   -- https://hom-escolaaberta.sme.prefeitura.sp.gov.br/api/smeescolas/
     - parâmetros retornados:
--- *tipoesc*: Tipo de Escola
--- *faixa*: Faixa de uma quantidade de alunos de um determinado tipo de escola 
--- *count*: Quantidade de alunos dessa faixa neste tipo de escola
+      * *tipoesc*: Tipo de Escola
+      * *faixa*: Faixa de uma quantidade de alunos de um determinado tipo de escola 
+      * *count*: Quantidade de alunos dessa faixa neste tipo de escola
 
   --https://hom-escolaaberta.sme.prefeitura.sp.gov.br/api/smeescolas/{iniciais_diretoria_regional}
    * parâmetros retornados são iguais ao endpoint acima, mas filtrados pela diretoria passada no endpoint
